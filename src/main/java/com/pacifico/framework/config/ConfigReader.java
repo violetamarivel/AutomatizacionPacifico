@@ -2,7 +2,7 @@ package com.pacifico.framework.config;
 
 import com.pacifico.framework.base.BrowserType;
 import com.pacifico.framework.base.DeviceType;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.IOException;
 import java.util.Properties;
