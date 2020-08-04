@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -90,7 +91,8 @@ public class FrameworkInitialize extends Base {
                 driver = new FirefoxDriver();
                 break;
             }
-            case IE: {
+            case Safari: {
+                driver = new SafariDriver();
                 break;
             }
         }

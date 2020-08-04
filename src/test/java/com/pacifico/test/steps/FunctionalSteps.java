@@ -1,6 +1,8 @@
 package com.pacifico.test.steps;
 
 import com.pacifico.framework.base.Base;
+import com.pacifico.framework.base.DriverContext;
+import com.pacifico.framework.config.Settings;
 import com.pacifico.framework.utilities.CucumberNewUtil;
 import com.pacifico.test.pages.FunctionalPage;
 import cucumber.api.DataTable;
@@ -15,6 +17,8 @@ public class FunctionalSteps extends Base {
 
     @Given("^paso uno$")
     public void pasoUno() {
+        CurrentPage = GetInstance(FunctionalPage.class);
+        DriverContext.Browser.GoToUrl("https://www.google.com");
     }
 
     @When("^paso dos$")

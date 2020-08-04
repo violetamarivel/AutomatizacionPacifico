@@ -17,12 +17,4 @@ public class Browser extends Base {
         _driver.get(url);
     }
 
-//    public void navigate(String url) {
-//        _driver.navigate().to(url);
-//    }
-//
-//    public void Maximize() {
-//        _driver.manage().window().maximize();
-//    }
-
 }
