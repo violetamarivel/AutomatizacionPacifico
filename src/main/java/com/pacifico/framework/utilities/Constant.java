@@ -1,7 +1,7 @@
 package com.pacifico.framework.utilities;
 
 /**
- * Created by pcasus on 26/09/2017.
+ * Created by jsegura on 26/09/2017.
  */
 public final class Constant {
 

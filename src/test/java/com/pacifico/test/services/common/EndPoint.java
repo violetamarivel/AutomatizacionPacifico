@@ -4,4 +4,5 @@ public interface EndPoint {
 
     //========================================== ECOMMERCE ==========================================
     String POST_AUTH = "/token/";
+
 }
