@@ -1,6 +1,6 @@
 Feature: Nombre del feature
 
-  @Tag
+  @test
   Scenario: Testing name one
     Given paso uno
     When paso dos

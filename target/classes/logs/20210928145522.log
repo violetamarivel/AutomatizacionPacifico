@@ -1,0 +1,32 @@
+[28-09-2021:14_09_07]: Framework Initialize
+[28-09-2021:14_09_07]: Configuration properties :: Browser [Chrome] - Device [PC] - Operative System [windows 10]
+[28-09-2021:14_09_07]: Environment [Integration]
+[28-09-2021:14_09_07]: Executed time 00:00:02:2348
+[28-09-2021:14_09_07]: Error found org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER', ip: '172.23.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01279563+2725219]
+	Ordinal0 [0x01178551+1672529]
+	Ordinal0 [0x01060359+525145]
+	Ordinal0 [0x00FECA64+51812]
+	Ordinal0 [0x0100CC37+183351]
+	Ordinal0 [0x0100CA3D+182845]
+	Ordinal0 [0x0100A94B+174411]
+	Ordinal0 [0x00FF2528+75048]
+	Ordinal0 [0x00FF35A0+79264]
+	Ordinal0 [0x00FF3539+79161]
+	Ordinal0 [0x0118D607+1758727]
+	GetHandleVerifier [0x01396546+1050150]
+	GetHandleVerifier [0x01396291+1049457]
+	GetHandleVerifier [0x013A10D7+1094071]
+	GetHandleVerifier [0x01396B46+1051686]
+	Ordinal0 [0x01185B06+1727238]
+	Ordinal0 [0x0118EB7B+1764219]
+	Ordinal0 [0x0118ECE3+1764579]
+	Ordinal0 [0x011A4C05+1854469]
+	BaseThreadInitThunk [0x7693FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76EF7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76EF7A6E+238]
+
