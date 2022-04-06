@@ -1,0 +1,33 @@
+[06-04-2022:10_04_71]: Framework Initialize
+[06-04-2022:10_04_71]: Configuration properties :: Browser [Chrome] - Device [PC] - Operative System [windows 10]
+[06-04-2022:10_04_71]: Environment [Integration]
+[06-04-2022:10_04_71]: Executed time 00:00:03:3113
+[06-04-2022:10_04_71]: Error found org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 99.0.4844.84 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER', ip: '172.27.128.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E40C43+2493507]
+	Ordinal0 [0x00DDA4B1+2073777]
+	Ordinal0 [0x00CE2608+1058312]
+	Ordinal0 [0x00D00771+1181553]
+	Ordinal0 [0x00CFC57B+1164667]
+	Ordinal0 [0x00CF9DCF+1154511]
+	Ordinal0 [0x00D29F0F+1351439]
+	Ordinal0 [0x00D29B7A+1350522]
+	Ordinal0 [0x00D2580B+1333259]
+	Ordinal0 [0x00D02314+1188628]
+	Ordinal0 [0x00D0316F+1192303]
+	GetHandleVerifier [0x00FC7BF6+1548950]
+	GetHandleVerifier [0x0107461C+2256060]
+	GetHandleVerifier [0x00ECC13B+518107]
+	GetHandleVerifier [0x00ECB1E0+514176]
+	Ordinal0 [0x00DDF53D+2094397]
+	Ordinal0 [0x00DE3418+2110488]
+	Ordinal0 [0x00DE3552+2110802]
+	Ordinal0 [0x00DECE81+2150017]
+	BaseThreadInitThunk [0x7655FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77517A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77517A4E+238]
+

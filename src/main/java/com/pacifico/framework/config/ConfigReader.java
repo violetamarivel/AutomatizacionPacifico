@@ -20,9 +20,11 @@ public class ConfigReader {
 
         // Cargamos el valor del parámetro environment
         String environment = System.getProperty("environment");
+        //String environment = "Demo";  //con esto funciona resbookin
         //Load the PropertyAutos file available in same package
-        String propertiesFile = "ConfigIntegration.properties";
-//      String propertiesFile = "ConfigCertification.properties";
+        //String propertiesFile = "ConfigIntegration.properties";
+         String propertiesFile = "ConfigCertification.properties";
+        //String propertiesFile = "ConfigDemo.properties";  //con esto funciona resbookin*/
 
         //Creamos el nombre del archivo a cargar
         if (environment != null) {

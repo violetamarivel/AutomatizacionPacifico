@@ -1,0 +1,6 @@
+[25-11-2021:23_11_41]: Framework Initialize
+[25-11-2021:23_11_41]: Configuration properties :: Browser [Chrome] - Device [PC] - Operative System [windows 10]
+[25-11-2021:23_11_41]: Environment [Integration]
+[25-11-2021:23_11_41]: Device - Browser initialized :: Platform [WINDOWS] - Browser [chrome] - Version [96.0.4664.45]
+[25-11-2021:23_11_41]: Executed time 00:00:05:5772
+[25-11-2021:23_11_41]: Error found java.lang.NullPointerException

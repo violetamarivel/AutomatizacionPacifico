@@ -26,7 +26,8 @@ public class ServicesSteps extends Base {
 
         for (int i = 1; i < data.size(); i++) {
 
-            String aResource = CucumberNewUtil.GetCellValueWithRowIndex("resource", i);
+            String aUsername = CucumberNewUtil.GetCellValueWithRowIndex("username", i);
+            String aPassword = CucumberNewUtil.GetCellValueWithRowIndex("password", i);
             int statusExpected = Integer.parseInt(CucumberNewUtil.GetCellValueWithRowIndex("expStatus", i));
             boolean aExpAccessToken = Boolean.parseBoolean(CucumberNewUtil.GetCellValueWithRowIndex("expAccessToken", i));
             boolean aExpTokentype = Boolean.parseBoolean(CucumberNewUtil.GetCellValueWithRowIndex("expTokentype", i));
@@ -34,7 +35,7 @@ public class ServicesSteps extends Base {
             System.out.println("==============================================================================");
             System.out.println("================== TOKEN (POST) - Se obtiene el bearer =======================");
             System.out.println("==============================================================================");
-            Response response = ResponseServicesProject.postToken(aResource);
+            Response response = ResponseServicesProject.postToken(aUsername, aPassword);
             String strMessageError = CommonUtil.responseMessage(response, statusExpected);
             sa.assertEquals(response.getStatusCode(), statusExpected, "[post token] Test [" + i + "] Message [" + strMessageError + "]");
 
@@ -44,7 +45,7 @@ public class ServicesSteps extends Base {
                 sa.assertEquals(restoken.getAccess_token().length() > 0, aExpTokentype, "Test [" + i + "] Access Token");
             }
 
-            listResults.add("Test [" + i + "][" + aResource + "][" + statusExpected + "][" + aExpAccessToken + "] [" + aExpAccessToken + "]");
+            listResults.add("Test [" + i + "][" + aUsername + "][" + statusExpected + "][" + aExpAccessToken + "] [" + aExpAccessToken + "]");
 
 
         }

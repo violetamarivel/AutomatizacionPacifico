@@ -13,9 +13,9 @@ public class ResponseServicesProject {
     public static String auriAuth = Settings.UrlServices_URI_Auth;
     public static String headerAuthorization = "";
 
-    public static Response postToken(String pResource) {
+    public static Response postToken(String pUsername, String pPassword) {
 
-        String strBody = CommonServicesUtil.getResource(pResource);
+        String strBody = CommonServicesUtil.getResource(pUsername, pPassword);
         RequestSpecification requestSpecification = new RestAssuredConfiguration().getRequestSpecification(abaseAuth, auriAuth, 0);
         Response response = new RestAssuredConfiguration().getResponseTotalPost(requestSpecification.body(strBody), EndPoint.POST_AUTH);
         headerAuthorization = response.path("token_type") + " " + response.path("access_token");
@@ -30,5 +30,6 @@ public class ResponseServicesProject {
 //        requestSpecification.header("authorization", headerAuthorization);
 //        return new RestAssuredConfiguration().getResponseTotalPatch(requestSpecification.body(strBody), EndPoint.PATCH_STOREINFO);
 //    }
+
 
 }

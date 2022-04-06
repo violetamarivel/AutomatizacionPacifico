@@ -1,0 +1,7 @@
+[21-11-2021:01_11_91]: Framework Initialize
+[21-11-2021:01_11_91]: Configuration properties :: Browser [Chrome] - Device [PC] - Operative System [windows 10]
+[21-11-2021:01_11_91]: Environment [Integration]
+[21-11-2021:01_11_91]: Device - Browser initialized :: Platform [WINDOWS] - Browser [chrome] - Version [95.0.4638.69]
+[21-11-2021:01_11_91]: Executed time 00:00:05:5462
+[21-11-2021:01_11_91]: Error found java.lang.AssertionError: The following asserts failed:
+	[post token] Test [1] Message [Error don't expected] expected [400] but found [200]

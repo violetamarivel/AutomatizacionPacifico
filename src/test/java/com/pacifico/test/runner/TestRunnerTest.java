@@ -10,7 +10,11 @@ import org.testng.annotations.Listeners;
         features = {"src/test/java/com/pacifico/test/features/"},
         glue = {"com/pacifico/test/steps"},
         format = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
-        tags = {"@Test"})
+        //tags = {"@TestCreateBoooking"})
+        tags = {"@Testservicio"})
+
+
+
 public class TestRunnerTest extends AbstractTestNGCucumberTests {
 
 

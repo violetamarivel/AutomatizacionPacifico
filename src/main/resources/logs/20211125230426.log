@@ -1,0 +1,6 @@
+[25-11-2021:23_11_77]: Framework Initialize
+[25-11-2021:23_11_77]: Configuration properties :: Browser [Chrome] - Device [PC] - Operative System [windows 10]
+[25-11-2021:23_11_77]: Environment [Integration]
+[25-11-2021:23_11_77]: Device - Browser initialized :: Platform [WINDOWS] - Browser [chrome] - Version [96.0.4664.45]
+[25-11-2021:23_11_77]: Executed time 00:01:22:82980
+[25-11-2021:23_11_77]: Error found java.io.FileNotFoundException: ..\services\test\JSON\Booking1.json (El sistema no puede encontrar la ruta especificada)

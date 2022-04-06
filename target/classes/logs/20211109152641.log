@@ -1,0 +1,6 @@
+[09-11-2021:15_11_67]: Framework Initialize
+[09-11-2021:15_11_67]: Configuration properties :: Browser [Chrome] - Device [PC] - Operative System [windows 10]
+[09-11-2021:15_11_67]: Environment [Integration]
+[09-11-2021:15_11_67]: Device - Browser initialized :: Platform [WINDOWS] - Browser [chrome] - Version [95.0.4638.69]
+[09-11-2021:15_11_67]: Executed time 00:00:05:5648
+[09-11-2021:15_11_67]: Error found java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was not specified in response. Content-Type was 'text/html; charset=utf-8'.

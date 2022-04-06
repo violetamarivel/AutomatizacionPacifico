@@ -1,0 +1,6 @@
+[09-11-2021:02_11_22]: Framework Initialize
+[09-11-2021:02_11_22]: Configuration properties :: Browser [Chrome] - Device [PC] - Operative System [windows 10]
+[09-11-2021:02_11_22]: Environment [Integration]
+[09-11-2021:02_11_22]: Device - Browser initialized :: Platform [WINDOWS] - Browser [chrome] - Version [95.0.4638.69]
+[09-11-2021:02_11_22]: Executed time 00:00:06:6998
+[09-11-2021:02_11_22]: Error found java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
